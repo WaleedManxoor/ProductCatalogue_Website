@@ -36,7 +36,7 @@ nav img {
 
 .hero {
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     display: flex;
     height: 250px; 
     width: 100%; 
@@ -78,13 +78,40 @@ nav img {
     text-decoration: none;
 }
 
-.laptop{
+.laptop_div{
+    padding-top: 30px;
+}
+.laptop_div h3{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+.laptop-group{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.laptop_img{
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
 }
 .laptop_img img{
-    width: 240px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.laptop-group h6{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 
