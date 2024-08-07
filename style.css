@@ -33,21 +33,10 @@ nav img {
     margin-left: 100px;
 }
 
-/* .hero{
-    display: flex;
-    float: right;
-}
-.hero1{
-    width: 30%;
-    background-color: aqua;
-}
-.hero2{
-    width: 70%;
-    background-color: aquamarine;
-} */
+
 .hero {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     display: flex;
     height: 250px; 
     width: 100%; 
@@ -88,3 +77,15 @@ nav img {
     color: white;
     text-decoration: none;
 }
+
+.laptop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.laptop_img img{
+    width: 240px;
+    height: auto;
+}
+
+
+
