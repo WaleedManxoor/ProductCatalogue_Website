@@ -99,9 +99,9 @@ nav img {
 }
 .laptop_img{
     height: 350px;
-    /* border: 2px solid white; */
     border-radius: 5px;
     padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .laptop_img img{
     width: 300px;
@@ -136,9 +136,9 @@ nav img {
 }
 .phone_img{
     height: 200px;
-    /* border: 2px solid black; */
     border-radius: 5px;
     padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .phone_img img{
     width: 180px;
@@ -173,13 +173,14 @@ nav img {
     padding-bottom: 20px;
 }
 .watches_img {
-    width: calc(50% - 20px); 
+    width: calc(50% - 50px); 
     height: 350px;
     border-radius: 5px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 .watches_img img {
     width: 100%;
@@ -189,7 +190,7 @@ nav img {
 }
 .watches-group h6{
     position: relative;
-    top: -60px;
+    top: -40px;
     text-align: center;
     padding: 10px;
     font-weight: bold;
