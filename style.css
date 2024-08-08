@@ -383,3 +383,103 @@ nav img {
     
 
 }
+
+@media (max-width: 375px){
+    nav{
+        height: 60px;
+    }
+    nav img{
+        width: 45px;
+    }
+    .input {
+        position: relative; 
+    }
+    .input input{
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        left: 30px;
+    }
+    .input input::placeholder {
+        font-size: small; 
+        opacity: 1; 
+    }
+    .categories p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    .categories ul{
+        font-size: small;
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer p{
+        font-size: x-small;
+    }
+    .footer img{
+        width: 15px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: small;
+    }
+    .footer{  
+        gap: 5px;
+    }
+    .laptop_img, .phone_img, .watches_img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px){
+    nav{
+        height: 60px;
+    }
+    nav img{
+        width: 45px;
+    }
+    .input {
+        position: relative; 
+    }
+    .input input{
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        left: 30px;
+    }
+    .input input::placeholder {
+        font-size: small; 
+        opacity: 1; 
+    }
+    .categories p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    .categories ul{
+        font-size: small;
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer p{
+        font-size: x-small;
+    }
+    .footer img{
+        width: 15px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: small;
+    }
+    .footer{  
+        gap: 5px;
+    }
+    .laptop_img, .phone_img, .watches_img{
+        height: 150px;
+    }
+}
