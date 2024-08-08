@@ -4,7 +4,7 @@
 nav {
     width: 100%;
     height: 100px;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #470391, #2870ee);
     display: flex;
     align-items: center;
 }
@@ -52,7 +52,7 @@ nav img {
 
 .hero1 {
     width: 30%;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #470391, #2870ee);
     color: white;
 }
 
@@ -68,12 +68,12 @@ nav img {
 
 .categories p{
     text-align: center;
-    font-size: x-large;
+    font-size: larger;
     font-weight: 800;
 }
 .categories ul{
     text-align: left;
-    font-size: larger;
+    font-size: large;
 }
 
 .categories a{
@@ -82,7 +82,7 @@ nav img {
 }
 
 .laptop_div{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .laptop_div h3{
     padding-left: 10px;
@@ -99,7 +99,7 @@ nav img {
 }
 .laptop_img{
     height: 350px;
-    border: 2px solid black;
+    /* border: 2px solid white; */
     border-radius: 5px;
     padding-bottom: 10px;
 }
@@ -113,8 +113,8 @@ nav img {
     top: -60px;
     text-align: center;
     padding: 10px;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    font-size: large;
 }
 
 
@@ -136,7 +136,7 @@ nav img {
 }
 .phone_img{
     height: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
     padding-bottom: 10px;
 }
@@ -150,8 +150,48 @@ nav img {
     top: -30px;
     text-align: center;
     padding: 10px;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    font-size: large;
 }
 
 
+.watches_div{
+    padding-top: 10px;
+}
+.watches_div h3 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.watches-group {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    padding-bottom: 20px;
+}
+.watches_img {
+    width: calc(50% - 20px); 
+    height: 350px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.watches_img img {
+    width: 100%;
+    height: auto; 
+    max-width: 300px; 
+    border-radius: 5px;
+}
+.watches-group h6{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
